@@ -1,0 +1,152 @@
+:root {
+  color-scheme: light;
+  --surface-page: #f8fafc;
+  --surface-panel: #ffffff;
+  --surface-hover: #f1f5f9;
+  --page-text: #0f172a;
+  --on-action: #ffffff;
+  --palette-f8fafc: #f8fafc;
+  --palette-ffffff: #ffffff;
+  --palette-f1f5f9: #f1f5f9;
+  --palette-cbd5e1: #cbd5e1;
+  --palette-e2e8f0: #e2e8f0;
+  --palette-94a3b8: #94a3b8;
+  --palette-0f172a: #0f172a;
+  --palette-334155: #334155;
+  --palette-64748b: #64748b;
+  --palette-2563eb: #2563eb;
+  --palette-1d4ed8: #1d4ed8;
+  --palette-1e40af: #1e40af;
+  --palette-0284c7: #0284c7;
+  --palette-16a34a: #16a34a;
+  --palette-15803d: #15803d;
+  --palette-14532d: #14532d;
+  --palette-dc2626: #dc2626;
+  --palette-b91c1c: #b91c1c;
+  --palette-7f1d1d: #7f1d1d;
+  --palette-e0f2fe: #e0f2fe;
+  --palette-7dd3fc: #7dd3fc;
+  --palette-0369a1: #0369a1;
+  --palette-475569: #475569;
+  --palette-86efac: #86efac;
+  --palette-f0fdf4: #f0fdf4;
+  --palette-fca5a5: #fca5a5;
+  --palette-fef2f2: #fef2f2;
+  --palette-dcfce7: #dcfce7;
+  --palette-dbeafe: #dbeafe;
+  --palette-93c5fd: #93c5fd;
+  --palette-fef3c7: #fef3c7;
+  --palette-b45309: #b45309;
+  --palette-fde68a: #fde68a;
+  --palette-fee2e2: #fee2e2;
+  --palette-ef4444: #ef4444;
+  --palette-ecfdf5: #ecfdf5;
+  --palette-a7f3d0: #a7f3d0;
+  --palette-059669: #059669;
+  --palette-fff1f2: #fff1f2;
+  --palette-fecdd3: #fecdd3;
+  --palette-fda4af: #fda4af;
+  --palette-be123c: #be123c;
+  --palette-f87171: #f87171;
+  --palette-ffedd5: #ffedd5;
+  --palette-fb923c: #fb923c;
+  --palette-c2410c: #c2410c;
+  --palette-fef9c3: #fef9c3;
+  --palette-facc15: #facc15;
+  --palette-854d0e: #854d0e;
+  --palette-38bdf8: #0284c7;
+  --palette-f59e0b: #f59e0b;
+  --palette-fbbf24: #fbbf24;
+  --palette-fef08a: #fef08a;
+  --palette-ca8a04: #ca8a04;
+  --palette-f85149: #f85149;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-page: #0b1220;
+  --surface-panel: #111c2e;
+  --surface-hover: #1c2b40;
+  --page-text: #e5edf7;
+  --palette-f8fafc: #0b1220;
+  --palette-ffffff: #111c2e;
+  --palette-f1f5f9: #1c2b40;
+  --palette-cbd5e1: #3b4e68;
+  --palette-e2e8f0: #26364c;
+  --palette-94a3b8: #94a3b8;
+  --palette-0f172a: #e5edf7;
+  --palette-334155: #cbd5e1;
+  --palette-64748b: #a3b2c7;
+  --palette-2563eb: #3b82f6;
+  --palette-1d4ed8: #60a5fa;
+  --palette-1e40af: #2563eb;
+  --palette-0284c7: #38bdf8;
+  --palette-16a34a: #22c55e;
+  --palette-15803d: #86efac;
+  --palette-14532d: #166534;
+  --palette-dc2626: #f87171;
+  --palette-b91c1c: #fca5a5;
+  --palette-7f1d1d: #991b1b;
+  --palette-e0f2fe: #102f46;
+  --palette-7dd3fc: #246180;
+  --palette-0369a1: #7dd3fc;
+  --palette-475569: #b0bfd2;
+  --palette-86efac: #286447;
+  --palette-f0fdf4: #102e23;
+  --palette-fca5a5: #82404b;
+  --palette-fef2f2: #3b1c24;
+  --palette-dcfce7: #123629;
+  --palette-dbeafe: #162e50;
+  --palette-93c5fd: #3b6693;
+  --palette-fef3c7: #3c3018;
+  --palette-b45309: #fcd34d;
+  --palette-fde68a: #7b6228;
+  --palette-fee2e2: #401e28;
+  --palette-ef4444: #ef4444;
+  --palette-ecfdf5: #12382d;
+  --palette-a7f3d0: #2a6951;
+  --palette-059669: #6ee7b7;
+  --palette-fff1f2: #3a1e2b;
+  --palette-fecdd3: #783647;
+  --palette-fda4af: #924357;
+  --palette-be123c: #fda4af;
+  --palette-f87171: #f87171;
+  --palette-ffedd5: #422b1c;
+  --palette-fb923c: #fb923c;
+  --palette-c2410c: #fdba74;
+  --palette-fef9c3: #3b3218;
+  --palette-facc15: #facc15;
+  --palette-854d0e: #fde047;
+  --palette-38bdf8: #38bdf8;
+  --palette-f59e0b: #f59e0b;
+  --palette-fbbf24: #fbbf24;
+  --palette-fef08a: #514020;
+  --palette-ca8a04: #facc15;
+  --palette-f85149: #f85149;
+}
+/* Paint the document canvas as well as the application panes. */
+html, body {
+  background-color: var(--surface-page);
+  color: var(--page-text);
+}
+.theme-toggle {
+  color: var(--palette-334155);
+  background: var(--surface-panel);
+  border: 1px solid var(--palette-cbd5e1);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 12px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.theme-toggle:hover { background: var(--surface-hover); }
+.theme-toggle:focus-visible { outline: 2px solid var(--palette-0284c7); outline-offset: 2px; }
+
+:root[data-theme="dark"] {
+  --green: #15803d;
+  --green-hover: #166534;
+  --red: #b91c1c;
+  --red-hover: #991b1b;
+  --primary-blue: #2563eb;
+  --primary-blue-hover: #1d4ed8;
+}
